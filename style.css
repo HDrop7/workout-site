@@ -5,7 +5,7 @@
 
 
     width: 100%;
-    max-wdith: 300px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 16px;
     box-sizing: border-box;
@@ -26,7 +26,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #fff;
-    color #222;
+    color: #222;
 
     margin-bottom: 8px;
 }
@@ -36,7 +36,7 @@
     padding: 16px;
     margin-top: 10px;
 
-    background-color #007aff;
+    background-color: #007aff;
     color: white;
 
     font-size: 17px;
@@ -58,7 +58,7 @@
     transform: scale(0.98);
 }
 
-workout-form button:focus-visible {
+.workout-form button:focus-visible {
     outline: 3px solid #80b7ff;
     outline-offset: 3px;
 }
@@ -67,4 +67,4 @@ workout-form button:focus-visible {
 .workout-form input:focus {
     outline: 2px solid #007aff;
     outline-offset: 2px;
-
+}
