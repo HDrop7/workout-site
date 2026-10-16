@@ -1,0 +1,70 @@
+.workout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+    width: 100%;
+    max-wdith: 300px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.workout-form label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.workout-form input {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 14px;
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    color #222;
+
+    margin-bottom: 8px;
+}
+
+.workout-form button {
+    width: 100%;
+    padding: 16px;
+    margin-top: 10px;
+
+    background-color #007aff;
+    color: white;
+
+    font-size: 17px;
+    font-weight: 600;
+    
+    border: none;
+    border-radius: 12px;
+
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+
+    transition: backround-color 0.15s ease;
+}
+
+/* Have tap feedback on iPhone */
+.workout-form butotn:active {
+    background-color: #005ecb;
+    transform: scale(0.98);
+}
+
+workout-form button:focus-visible {
+    outline: 3px solid #80b7ff;
+    outline-offset: 3px;
+}
+
+/* Make keyboard focus easy to see */
+.workout-form input:focus {
+    outline: 2px solid #007aff;
+    outline-offset: 2px;
+
