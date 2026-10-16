@@ -15,7 +15,7 @@ form.addEventListener("submit", function (event) {
 
     console.log("Workout submitted:", workout);
 
-    alert("You tried to add a workout while we noticed, unfortunately this functionality isn't available yet...");
+    alert("You tried to add a workout. While we noticed, unfortunately this functionality isn't available yet...");
 
     /* TODO add the workout data to google sheet or postgresql db */
 
