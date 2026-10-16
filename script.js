@@ -1,4 +1,4 @@
-const form = docuemnt.getElementById("workout-form");
+const form = document.getElementById("workout-form");
 
 form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -8,7 +8,7 @@ form.addEventListener("submit", function (event) {
     const reps = document.getElementById("reps").value;
 
     const workout = {
-        exericse: exercise,
+        exercise: exercise,
         weight: Number(weight),
         reps: Number(reps)
     };
@@ -20,4 +20,4 @@ form.addEventListener("submit", function (event) {
     /* TODO add the workout data to google sheet or postgresql db */
 
     form.reset();
-};
+});
